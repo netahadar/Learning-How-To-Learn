@@ -9,8 +9,10 @@
   <link rel="stylesheet" href="./styles/style.css">
   <title>Learning how to learn</title>
 </head>
+
 <body>
   <div class="page">
+
     <header class="header">
       <img class="logo header__logo_place_header" src="./images/logo_place_header.png" alt="logo">
       <h1 class="header__title">Learning How to Learn</h1>
@@ -20,12 +22,17 @@
       </p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="women standing
       on a mountaintop and looking back">
+      <!--creating the blue square pic-->
       <div class="header__square-pic"></div>
     </header>
+
     <main class="content">
       <section class="description">
+        <!--dividing the section into two columns-->
         <div class="two-columns">
+          <!--left side column-->
           <h2 class="two-columns__brief">The main problem with education</h2>
+          <!--right side column-->
           <article class="two-columns__main-text">
             <p class="two-columns__paragraph">Whether it's at school or university, the one thing no one ever teaches you is how to teach
               yourself. We often just end up drilling specific exercises and mindlessly memorizing information
@@ -48,6 +55,7 @@
       <section class="digits">
         <h2 class="section-title">Facts and figures</h2>
         <h3 class="section-subtitle">On learning and the brain</h3>
+        <!--creating text boxes-->
         <ul class="table">
             <li class="table__cell">
               <p class="table__heading">86 billion</p>
@@ -115,6 +123,8 @@
       </section>
 
       <section class="kaufman">
+        <!--this block is the same as the "table" block in the
+        digit's section, only with a unique style-->
         <h2 class="section-title section-title_theme_dark">
           Ten principles of rapid skill acquisition
         </h2>
@@ -198,13 +208,17 @@
     </main>
 
     <footer class="footer">
+      <!--this section is made out of 3 columns-->
       <div class="footer__columns">
+        <!--left column-->
         <div class="footer__column_content_copyright">
           <img class="logo logo_place_footer" src="./images/logo_place_footer.png" alt="logo">
           <p class="footer__author">&copy;2021 Neta Hadar Itzhak</p>
         </div>
+        <!--middle column-->
         <div class="footer__column_content_about">
           <h3 class="footer__column-heading">About Practicum by Yandex</h3>
+          <!--the list of links in the column-->
           <ul class="footer__list">
             <li class="footer__column-link">
               <a class="footer__column-link" href="#">Home page</a>
@@ -217,21 +231,24 @@
             </li>
           </ul>
         </div>
-        <ul>
-          <li class="footer__column_content_social">
-            <h3 class="footer__column-heading">Social media</h3>
-          </li>
-          <li class="footer__column_content_social">
-            <img class="footer__social-icons" src="./images/facebook_white.svg" alt="white Facebook icon">
-            <a class="footer__column-link" href="#">Facebook</a>
-          </li>
-          <li class="footer__column_content_social">
-            <img class="footer__social-icons" src="./images/instagram_white.svg" alt="white Instagram icon">
-            <a class="footer__column-link" href="#">Instagram</a>
-          </li>
-        </ul>
+        <!--right column-->
+        <div class="footer__column_content_social">
+          <h3 class="footer__column-heading">Social media</h3>
+          <!--list of social-link with their logos-->
+          <ul>
+            <li class="footer__column_content_social">
+              <img class="footer__social-icons" src="./images/facebook_white.svg" alt="white Facebook icon">
+              <a class="footer__column-link" href="#">Facebook</a>
+            </li>
+            <li class="footer__column_content_social">
+              <img class="footer__social-icons" src="./images/instagram_white.svg" alt="white Instagram icon">
+              <a class="footer__column-link" href="#">Instagram</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </div>
+
 </body>
 </html>

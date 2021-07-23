@@ -5,6 +5,8 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/*header style: */
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -12,7 +14,10 @@
   background-color: #f2f2f2;
   display: flex;
   align-items: center;
+  position: relative;
 }
+
+/*this style is uniqe to the header logo*/
 
 .header__logo_place_header {
   position: absolute;
@@ -23,9 +28,13 @@
   width: 154px;
 }
 
+/*this style is common with the footer logo*/
+
 .logo {
   z-index: 1;
 }
+
+/*header texts style*/
 
 .header__title {
   width: 730px;
@@ -47,6 +56,12 @@
   font-weight: normal;
 }
 
+.header__link{
+  color: #2f80ed;
+}
+
+/*header pics style*/
+
 .header__main-illustration {
   position: absolute;
     bottom: 0;
@@ -65,10 +80,14 @@
     right: 0;
 }
 
+/*first section style: */
+
 .description {
   display: flex;
   justify-content: center;
 }
+
+/*dividing the text to two columns*/
 
 .two-columns{
   margin-top: 100px;
@@ -80,6 +99,8 @@
   justify-content: space-between;
 }
 
+/*the left side text style*/
+
 .two-columns__brief{
   width: 175px;
   margin-top: 0;
@@ -89,9 +110,13 @@
   color: #2f80ed;
 }
 
+/*right side block style*/
+
 .two-columns__main-text{
   width: 80%;
 }
+
+/*right side text style*/
 
 .two-columns__paragraph{
   margin-bottom: 30px;
@@ -101,11 +126,15 @@
   font-weight: normal;
 }
 
+/*the bold text style*/
+
 .two-columns__span-accent{
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
 }
+
+/*second section style*/
 
 .digits{
   display: flex;
@@ -129,6 +158,8 @@
   font-weight: normal;
   text-align: center;
 }
+
+/*the two element's lines style*/
 
 .table {
   margin: 60px auto 100px;
@@ -161,6 +192,8 @@
   font-size: 18px;
   font-weight: normal;
 }
+
+/*third section style*/
 
 .feynman{
   height: 790px;
@@ -208,6 +241,8 @@
   font-weight: normal;
 }
 
+/*fourth section style: */
+
 .kaufman{
   overflow: hidden;
   position: relative;
@@ -226,6 +261,9 @@
   color: #2f80ed;
   z-index: 0;
 }
+
+/*this section uses the digit's section "table" block styles.
+thees are modifiers for this section: */
 
 .section-title_theme_dark{
   margin-top: 90px;
@@ -279,6 +317,8 @@
   z-index: 1;
 }
 
+/*footer style*/
+
 .footer{
   background-color: #1f1f1f;
   color: white;
@@ -287,6 +327,8 @@
   justify-content: center;
 }
 
+/*the footer divided into 3 columns*/
+
 .footer__columns{
   width: 90%;
   display: flex;
@@ -294,12 +336,14 @@
   margin-bottom: 40px;
 }
 
+/*left column style*/
+
 .footer__column_content_copyright {
   flex-basis: 711px;
   flex-direction: column;
   position: relative;
 }
-
+ /*modifier for the footer logo*/
 .logo_place_footer {
   position: absolute;
     top:0;
@@ -318,11 +362,16 @@
   font-weight: normal;
 }
 
+/*middle and left column's title style*/
+
 .footer__column-heading {
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
 }
+
+/*middle column style*/
+
 .footer__column_content_about {
   align-self: stretch;
 }
@@ -331,6 +380,8 @@
   list-style-type: none;
   padding: 0;
 }
+
+/*left column style*/
 
 .footer__column_content_social {
  list-style: none;
@@ -343,6 +394,8 @@
   height: 16px;
 
 }
+
+/*middle and left links style*/
 
 .footer__column-link{
   margin-left: 10px;
