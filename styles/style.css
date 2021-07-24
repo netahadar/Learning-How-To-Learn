@@ -19,7 +19,7 @@
 
 /*this style is uniqe to the header logo*/
 
-.header__logo_place_header {
+.logo_place_header {
   position: absolute;
     top: 30px;
     left: 64px;
@@ -37,19 +37,20 @@
 /*header texts style*/
 
 .header__title {
-  width: 730px;
-  margin-left: 64px;
-  z-index: 1;
+  max-width: 730px;
+  margin: 0 0 0 64px;
+  z-index: 2;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
 }
 
-.headr__subtitle {
+.header__subtitle {
+  margin: 0;
   position: absolute;
     bottom: 30px;
     left: 64px;
-  z-index: 1;
+  z-index: 2;
   width: 388px;
   line-height: 25px;
   font-size: 18px;
@@ -58,6 +59,8 @@
 
 .header__link{
   color: #2f80ed;
+  text-decoration: none;
+  z-index: 2;
 }
 
 /*header pics style*/
@@ -78,11 +81,14 @@
   position: absolute;
     top: 64px;
     right: 0;
+  z-index: 0;
 }
 
 /*first section style: */
 
 .description {
+  padding-top: 100px;
+  padding-bottom: 100px;
   display: flex;
   justify-content: center;
 }
@@ -90,10 +96,7 @@
 /*dividing the text to two columns*/
 
 .two-columns{
-  margin-top: 100px;
-  margin-bottom: 100px;
   width: 80%;
-  min-width: 784px;
   min-height: auto;
   display: flex;
   justify-content: space-between;
@@ -103,7 +106,7 @@
 
 .two-columns__brief{
   width: 175px;
-  margin-top: 0;
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -114,6 +117,7 @@
 
 .two-columns__main-text{
   width: 80%;
+  min-width: 784px;
 }
 
 /*right side text style*/
@@ -124,6 +128,10 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+}
+
+.two-columns__paragraph:last-child{
+  margin-bottom: 0;
 }
 
 /*the bold text style*/
@@ -140,6 +148,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .section-title{
@@ -148,7 +158,7 @@
   font-size: 60px;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
 }
 
 .section-subtitle{
@@ -157,12 +167,14 @@
   font-size: 24px;
   font-weight: normal;
   text-align: center;
+  margin: 0;
 }
 
 /*the two element's lines style*/
 
 .table {
-  margin: 60px auto 100px;
+  margin: 0, auto;
+  padding-left: 0;
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
@@ -171,23 +183,23 @@
 }
 
 .table__cell{
+  margin-top: 60px;
   width: 250px;
   box-sizing: border-box;
-  align-content: flex-start;
+  display: flex;
+  flex-direction: column;
 }
 
 .table__heading{
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  display: flex;
-  flex-direction: column;
-  justify-items: flex-start;
   text-align: start;
 }
 
 .table__text{
-  margin-top: 20px;
+  margin-top: 20px 0 0 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -196,11 +208,13 @@
 /*third section style*/
 
 .feynman{
-  height: 790px;
+  padding-top: 100px;
+  min-height: 790px;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f2f2f2;
 }
 
 .feynman__image{
@@ -224,7 +238,7 @@
 
 .feynman__subtitle{
   text-align: center;
-  margin-top: 0;
+  margin: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -239,11 +253,14 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  text-decoration: none;
 }
 
 /*fourth section style: */
 
 .kaufman{
+  padding-top: 90px;
+  padding-bottom: 90px;
   overflow: hidden;
   position: relative;
   display: flex;
@@ -266,30 +283,16 @@
 thees are modifiers for this section: */
 
 .section-title_theme_dark{
-  margin-top: 90px;
-  margin-bottom: 20px;
-  width: 60%;
-  line-height: 69px;
-  font-size: 60px;
-  font-weight: bold;
-  text-align: center;
   color: white;
   z-index: 1;
 }
 
 .section-subtitle_theme_dark{
-  width: 60%;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
   color: white;
   z-index: 1;
 }
 
 .table_theme_dark{
-  width: 1100px;
-  margin: 0 auto 90px;
   align-items: flex-start;
   z-index: 1;
 }
@@ -297,32 +300,27 @@ thees are modifiers for this section: */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-right: 0;
   margin-top: 80px;
   text-align: left;
   z-index: 1;
 }
 
-.table__headline_theme_dark{
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
+.table__heading_theme_dark{
   z-index: 1;
 }
 
 .table__text_theme_dark{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
   z-index: 1;
 }
 
 /*footer style*/
 
 .footer{
+  padding-top: 60px;
+  padding-bottom: 40px;
   background-color: #1f1f1f;
   color: white;
-  height: 350px;
+  min-height: 350px;
   display: flex;
   justify-content: center;
 }
@@ -333,30 +331,25 @@ thees are modifiers for this section: */
   width: 90%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 40px;
 }
 
 /*left column style*/
 
 .footer__column_content_copyright {
+  display: flex;
   flex-basis: 711px;
   flex-direction: column;
   position: relative;
+  justify-content: space-between;
 }
  /*modifier for the footer logo*/
 .logo_place_footer {
-  position: absolute;
-    top:0;
-    left: 0;
   width: 183px;
   height: 35px;
 }
 
 .footer__author {
-  position: absolute;
-    bottom: 18px;
-    left: 0;
-  margin-top: 18px;
+  margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -368,6 +361,7 @@ thees are modifiers for this section: */
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
+  margin: 0;
 }
 
 /*middle column style*/
@@ -379,6 +373,7 @@ thees are modifiers for this section: */
 .footer__list {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 /*left column style*/
@@ -397,10 +392,14 @@ thees are modifiers for this section: */
 
 /*middle and left links style*/
 
-.footer__column-link{
+.footer__column-list-item{
   margin-left: 10px;
   line-height: 30px;
+}
+
+.footer__column-link{
   font-size: 18px;
   font-weight: normal;
-  color: #2f80ed;
+  text-decoration: none;
+  color: white;
 }
