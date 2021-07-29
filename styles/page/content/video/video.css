@@ -1,0 +1,15 @@
+@import url(../section-title/section-title.css);
+@import url(../section-subtitle/section-subtitle.css);
+@import url(./iframes/video__iframes.css);
+@import url(./iframe/video__iframe.css);
+
+.video {
+    box-sizing: border-box;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 550px;
+    overflow: visible;
+  }

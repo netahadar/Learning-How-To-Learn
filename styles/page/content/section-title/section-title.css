@@ -1,0 +1,12 @@
+@import url(./_theme/section-title_theme_dark.css);
+@import url(./_line-height/section__title_line-height_l.css);
+
+.section-title{
+    width: 60%;
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 20px;
+    padding: 0;
+  }
