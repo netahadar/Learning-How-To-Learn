@@ -1,9 +1,0 @@
-@import url(../two-columns/two-columns.css);
-
-.oakley {
-    box-sizing: border-box;
-    background-color: #f2f2f2;
-    padding-top: 160px;
-    display: flex;
-    justify-content: center;
-  }

@@ -1,8 +1,0 @@
-@import url(../two-columns/two-columns.css);
-
-.description {
-    box-sizing: border-box;
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
-  }

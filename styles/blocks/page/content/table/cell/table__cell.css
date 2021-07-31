@@ -1,9 +1,0 @@
-@import url(./_theme/table__cell_theme_dark.css);
-
-.table__cell {
-    margin-top: 60px;
-    width: 250px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-  }
