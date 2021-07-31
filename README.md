@@ -12,7 +12,7 @@ In this project I've specialized in:
   * Positioning
   And more...
   
- I'm planning on adding other fetures to the site such as comments, contact form, anchors and vendor prefixes,
+ I'm planning on adding other features to the site such as comments, contact form, anchors and vendor prefixes,
  
  in order to improve my capabilities and site visibility.
 
