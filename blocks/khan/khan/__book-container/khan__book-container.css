@@ -3,4 +3,6 @@
     flex-direction: row;
     align-content: flex-start;
     width: 80%;
+    height: 400px;
+    overflow: hidden;
   }

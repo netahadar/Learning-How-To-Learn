@@ -1,9 +1,9 @@
-.video {
+.khan {
+    position: relative;
     box-sizing: border-box;
-    padding-top: 100px;
-    margin-bottom: -50px;
+    padding-top: 105px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
+    background-color: #f2f2f2;
   }
