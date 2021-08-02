@@ -15,4 +15,8 @@ In this project I've specialized in:
  I'm planning on adding other features to the site such as comments, contact form, anchors and vendor prefixes,
  
  in order to improve my capabilities and site visibility.
+ 
+ Take a look at the project on gh-pages at the following link:
+ 
+ https://netahadar.github.io/Learning-How-To-Learn/
 
